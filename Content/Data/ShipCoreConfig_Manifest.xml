@@ -1,96 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CoreManifest>
-  <ManifestGroups>
-    <Group>
-      <Name>Light/Med/Heavy</Name>
-      <MaxCount>3</MaxCount>
-    </Group>
-    <Group>
-      <Name>Light/Med</Name>
-      <MaxCount>4</MaxCount>
-    </Group>
-    <Group>
-      <Name>Light</Name>
-      <MaxCount>5</MaxCount>
-    </Group>
-    <Group>
-      <Name>Scrap</Name>
-      <MaxCount>20</MaxCount>
-    </Group>
-    <Group>
-      <Name>NPCs</Name>
-      <MaxCount>999</MaxCount>
-    </Group>
-  </ManifestGroups>
-
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_core.xml</Filename>
-    <Group>Light/Med/Heavy</Group>
-    <Group>Light/Med</Group>
-    <Group>Light</Group>
+    <CoreSelectionPriority>2</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_Fortress_core.xml</Filename>
+    <CoreSelectionPriority>10</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_HeavyCore_core.xml</Filename>
-    <Group>Light/Med/Heavy</Group>
+    <CoreSelectionPriority>5</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_MediumCore_core.xml</Filename>
-    <Group>Light/Med/Heavy</Group>
-    <Group>Light/Med</Group>
+    <CoreSelectionPriority>4</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_SupportCore_core.xml</Filename>
-    <Group>Light/Med/Heavy</Group>
-    <Group>Light/Med</Group>
-    <Group>Light</Group>
+    <CoreSelectionPriority>3</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_Pipeline_core.xml</Filename>
+    <CoreSelectionPriority>8</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_Scrap_core.xml</Filename>
-    <Group>Scrap</Group>
+    <CoreSelectionPriority>0</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_ShieldCore_core.xml</Filename>
+    <CoreSelectionPriority>8</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/SmallBlockBeacon_core.xml</Filename>
-    <Group>Light/Med/Heavy</Group>
-    <Group>Light/Med</Group>
-    <Group>Light</Group>
     <CoreSelectionPriority>1</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/SmallBlockBeacon_Scrap_core.xml</Filename>
-    <Group>Scrap</Group>
+    <CoreSelectionPriority>0</CoreSelectionPriority>
   </ShipCore>
   <ShipCore>
     <Filename>Data/DisposableNpcBeaconLarge_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
   <ShipCore>
     <Filename>Data/DisposableNpcBeaconSmall_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_NPC_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
   <ShipCore>
     <Filename>Data/SmallBlockBeacon_NPC_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
   <ShipCore>
     <Filename>Data/LargeBlockBeacon_NPCNoConceal_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
   <ShipCore>
     <Filename>Data/SmallBlockBeacon_NPCNoConceal_core.xml</Filename>
-    <Group>NPCs</Group>
   </ShipCore>
-
 </CoreManifest>

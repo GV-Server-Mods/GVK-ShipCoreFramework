@@ -111,6 +111,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>true</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Drills</Name>
@@ -166,6 +167,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H H2 Engines</Name>
@@ -175,6 +177,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Warheads</Name>
@@ -184,6 +187,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Interior Turrets</Name>
@@ -193,6 +197,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Drill Blocker</Name>
@@ -202,6 +207,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Production</Name>
@@ -220,6 +226,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Weapons</Name>
@@ -242,5 +249,6 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>Hidden</LimitVisibility>
   </BlockLimits>
 </ShipCore>

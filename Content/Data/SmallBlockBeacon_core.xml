@@ -86,7 +86,6 @@
     <Name>UP Utility Points</Name>
     <BlockGroups>UP Weapons</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
     <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
     <BlockGroups>H/UP Pistons</BlockGroups>
@@ -105,6 +104,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>true</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Drills</Name>
@@ -151,6 +151,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H H2 Engines</Name>
@@ -160,6 +161,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Warheads</Name>
@@ -169,6 +171,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Production</Name>
@@ -187,6 +190,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Weapons</Name>
@@ -211,5 +215,6 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>Hidden</LimitVisibility>
   </BlockLimits>
 </ShipCore>

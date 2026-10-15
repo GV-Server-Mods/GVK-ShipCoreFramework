@@ -37,22 +37,22 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.3</MaxSpeed>
+    <MaxSpeed>0</MaxSpeed>
     <MaxAngularVelocity>0</MaxAngularVelocity>
-    <MaxBoost>0.5</MaxBoost>
-    <BoostDuration>10</BoostDuration>
-    <BoostCoolDown>60</BoostCoolDown>
-    <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
-    <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
-    <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
-    <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
-    <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
-    <CruiseFrictionMultiplier>1</CruiseFrictionMultiplier>
-    <CruiseAccelerationThreshold>0.05</CruiseAccelerationThreshold>
+    <MaxBoost>0</MaxBoost>
+    <BoostDuration>0</BoostDuration>
+    <BoostCoolDown>0</BoostCoolDown>
+    <MinimumFrictionSpeedAbsolute>0</MinimumFrictionSpeedAbsolute>
+    <MaximumFrictionSpeedAbsolute>0</MaximumFrictionSpeedAbsolute>
+    <MinimumFrictionSpeedModifier>0</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>0</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
-    <PostShield>0</PostShield>
+    <PostShield>1</PostShield>
     <Duration>10</Duration>
     <Cooldown>60</Cooldown>
     <Rocket>1</Rocket>
@@ -63,7 +63,7 @@
   </PassiveDefenseModifiers>
   <ActiveDefenseModifiers>
     <Bullet>1</Bullet>
-    <PostShield>0</PostShield>
+    <PostShield>1</PostShield>
     <Duration>10</Duration>
     <Cooldown>60</Cooldown>
     <Rocket>1</Rocket>
@@ -74,13 +74,8 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>UP Utility Points</Name>
-    <BlockGroups>UP Weapons</BlockGroups>
-    <BlockGroups>H/UP Grinders</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
-    <BlockGroups>H/UP Production</BlockGroups>
     <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
     <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -95,6 +90,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>true</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Drills</Name>
@@ -113,6 +109,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Gas Generators</Name>
@@ -122,11 +119,11 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Mechanical</Name>
     <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
     <MaxCount>5</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -141,6 +138,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>H Terminal Blocks</Name>
@@ -150,6 +148,7 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
+    <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
     <Name>Restricted</Name>
@@ -174,5 +173,6 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>Damage</PunishmentType>
+    <LimitVisibility>Hidden</LimitVisibility>
   </BlockLimits>
 </ShipCore>

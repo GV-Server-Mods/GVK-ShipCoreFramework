@@ -1208,16 +1208,6 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Beacon</TypeId>
-      <SubtypeId>DisposableNpcBeaconLarge</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Beacon</TypeId>
-      <SubtypeId>DisposableNpcBeaconSmall</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>MES-NPC-Thrust-Atmo-LargeGrid-Large</SubtypeId>
       <CountWeight>1</CountWeight>
@@ -1551,11 +1541,6 @@
       <SubtypeId>any</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
-    <BlockTypes>
-      <TypeId>HydrogenEngine</TypeId>
-      <SubtypeId>LargePrototechReactor</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>H Gas Generators</Name>
@@ -1563,11 +1548,6 @@
       <TypeId>OxygenGenerator</TypeId>
       <SubtypeId>any</SubtypeId>
       <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>OxygenGenerator</TypeId>
-      <SubtypeId>LargeBlockPrototechOxygenGenerator</SubtypeId>
-      <CountWeight>10</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -1587,12 +1567,12 @@
     <Name>H Fortress Utility</Name>
     <BlockTypes>
       <TypeId>OxygenGenerator</TypeId>
-      <SubtypeId>OxygenGenerator3</SubtypeId>
+      <SubtypeId>LargeBlockPrototechOxygenGenerator</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>HydrogenEngine</TypeId>
-      <SubtypeId>HugeHydrogenEngine3</SubtypeId>
+      <SubtypeId>LargePrototechReactor</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
