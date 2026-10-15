@@ -1,0 +1,7 @@
+bin/
+obj/
+MDK/
+*.local.ini
+.vs/
+*.user
+*.suo

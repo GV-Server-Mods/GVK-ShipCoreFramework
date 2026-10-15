@@ -1,0 +1,12 @@
+* text=auto eol=crlf
+*.xml text eol=crlf
+*.sbc text eol=crlf
+*.cs text eol=crlf
+*.ini text eol=crlf
+*.md text eol=crlf
+*.mod text eol=crlf
+*.sbmi text eol=crlf
+*.jpg binary
+*.png binary
+*.dds binary
+*.mwm binary

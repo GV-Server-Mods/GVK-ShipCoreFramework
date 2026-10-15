@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipCore>
+  <SubtypeId>LargeBlockBeacon_Scrap</SubtypeId>
+  <UniqueName>Large Scrap Core</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
+  <ForceBroadCastRange>0</ForceBroadCastRange>
+  <MobilityType>Both</MobilityType>
+  <MaxBlocks>8000</MaxBlocks>
+  <MinBlocks>0</MinBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>-1</MaxPCU>
+  <MaxBackupCores>0</MaxBackupCores>
+  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MaxPerFaction>20</MaxPerFaction>
+  <FactionPlayersNeededPerCore>-1</FactionPlayersNeededPerCore>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPlayers>-1</MaxPlayers>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
+  <SpeedOverridePriority>0</SpeedOverridePriority>
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <PowerOverclockEnabled>false</PowerOverclockEnabled>
+  <PowerOverclockMultiplier>0</PowerOverclockMultiplier>
+  <PowerOverclockDuration>0</PowerOverclockDuration>
+  <PowerOverclockCooldown>0</PowerOverclockCooldown>
+  <PowerOverclockDamagePerSecond>0</PowerOverclockDamagePerSecond>
+  <Modifiers>
+    <AssemblerSpeed>1</AssemblerSpeed>
+    <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
+    <GyroEfficiency>1</GyroEfficiency>
+    <GyroForce>1</GyroForce>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>1</RefineEfficiency>
+    <RefineSpeed>1</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
+  </Modifiers>
+  <SpeedModifiers>
+    <MaxSpeed>0.3</MaxSpeed>
+    <MaxAngularVelocity>0</MaxAngularVelocity>
+    <MaxBoost>0.5</MaxBoost>
+    <BoostDuration>10</BoostDuration>
+    <BoostCoolDown>60</BoostCoolDown>
+    <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
+    <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
+    <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>1</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0.05</CruiseAccelerationThreshold>
+  </SpeedModifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>1</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </PassiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>1</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </ActiveDefenseModifiers>
+  <BlockLimits>
+    <Name>H Wind/Solar</Name>
+    <BlockGroups>H Wind/Solar</BlockGroups>
+    <MaxCount>10</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>true</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Restricted</Name>
+    <BlockGroups>H Relic Weapons</BlockGroups>
+    <BlockGroups>H Warheads</BlockGroups>
+    <BlockGroups>H/UP Grinders</BlockGroups>
+    <BlockGroups>UP Weapons</BlockGroups>
+    <BlockGroups>H Shield Generator</BlockGroups>
+    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>MP Suspension</BlockGroups>
+    <BlockGroups>H Drill Blocker</BlockGroups>
+    <BlockGroups>H/UP Drills</BlockGroups>
+    <BlockGroups>MP Thrusters</BlockGroups>
+    <BlockGroups>H Terminal Blocks</BlockGroups>
+    <BlockGroups>H H2 Engines</BlockGroups>
+    <BlockGroups>H Weapons</BlockGroups>
+    <BlockGroups>H/UP Production</BlockGroups>
+    <BlockGroups>H Gas Generators</BlockGroups>
+    <BlockGroups>H Fortress Weapons</BlockGroups>
+    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
+    <BlockGroups>H/UP Pistons</BlockGroups>
+    <BlockGroups>H Fortress Utility</BlockGroups>
+    <BlockGroups>H Interior Turrets</BlockGroups>
+    <BlockGroups>H Salvage Turrets</BlockGroups>
+    <BlockGroups>H NPC Blocks</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
+  </BlockLimits>
+</ShipCore>

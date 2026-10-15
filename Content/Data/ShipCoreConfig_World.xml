@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IgnoreAiFactions>true</IgnoreAiFactions>
+  <IgnoreFactionTags />
+  <SelectedNoCoreUniqueName>Kharak No Core</SelectedNoCoreUniqueName>
+  <DebugMode>false</DebugMode>
+  <CombatLogging>true</CombatLogging>
+  <CombatLoggingBroadcastRangeMeters>20000</CombatLoggingBroadcastRangeMeters>
+  <LOG_LEVEL>1</LOG_LEVEL>
+  <CLIENT_OUTPUT_LOG_LEVEL>1</CLIENT_OUTPUT_LOG_LEVEL>
+  <MaxPossibleSpeedMetersPerSecond>200</MaxPossibleSpeedMetersPerSecond>
+  <SpeedRampDownPercentage>5</SpeedRampDownPercentage>
+  <MassTypeMode>Wet</MassTypeMode>
+  <FrictionSpeedValueMode>Modifier</FrictionSpeedValueMode>
+  <BlockDirectionalPlacementOnSubgrids>false</BlockDirectionalPlacementOnSubgrids>
+</ModConfig>
