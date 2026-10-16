@@ -1485,7 +1485,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>H/UP Rotors/Hinges</Name>
+    <Name>H Rotors/Hinges</Name>
     <BlockTypes>
       <TypeId>MotorStator</TypeId>
       <SubtypeId>any</SubtypeId>
@@ -1494,11 +1494,32 @@
     <BlockTypes>
       <TypeId>MotorAdvancedStator</TypeId>
       <SubtypeId>any</SubtypeId>
-      <CountWeight>0.5</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>H/UP Pistons</Name>
+    <Name>UP Rotors/Hinges</Name>
+    <BlockTypes>
+      <TypeId>MotorStator</TypeId>
+      <SubtypeId>any</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>MotorAdvancedStator</TypeId>
+      <SubtypeId>any</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>H Pistons</Name>
+    <BlockTypes>
+      <TypeId>ExtendedPistonBase</TypeId>
+      <SubtypeId>any</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>UP Pistons</Name>
     <BlockTypes>
       <TypeId>ExtendedPistonBase</TypeId>
       <SubtypeId>any</SubtypeId>
@@ -1514,7 +1535,15 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>H/UP Welders</Name>
+    <Name>H Welders</Name>
+    <BlockTypes>
+      <TypeId>ShipWelder</TypeId>
+      <SubtypeId>any</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>UP Welders</Name>
     <BlockTypes>
       <TypeId>ShipWelder</TypeId>
       <SubtypeId>any</SubtypeId>

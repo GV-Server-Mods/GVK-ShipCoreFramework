@@ -37,9 +37,9 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.5</MaxSpeed>
+    <MaxSpeed>0.4</MaxSpeed>
     <MaxAngularVelocity>2</MaxAngularVelocity>
-    <MaxBoost>0.6</MaxBoost>
+    <MaxBoost>0.45</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
@@ -86,10 +86,10 @@
     <Name>UP Utility Points</Name>
     <BlockGroups>UP Weapons</BlockGroups>
     <BlockGroups>H/UP Production</BlockGroups>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
+    <BlockGroups>UP Rotors/Hinges</BlockGroups>
+    <BlockGroups>UP Pistons</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>UP Welders</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>H Salvage Turrets</BlockGroups>
     <MaxCount>40</MaxCount>
@@ -119,7 +119,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>H Welders</Name>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>H Welders</BlockGroups>
     <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -136,10 +136,18 @@
     <PunishmentType>Damage</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>H Mechanical</Name>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <Name>H Pistons</Name>
+    <BlockGroups>H Pistons</BlockGroups>
+    <MaxCount>10</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>H Rotors/Hinges</Name>
+    <BlockGroups>H Rotors/Hinges</BlockGroups>
+    <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

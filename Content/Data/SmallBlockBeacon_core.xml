@@ -37,9 +37,9 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.9</MaxSpeed>
+    <MaxSpeed>0.6</MaxSpeed>
     <MaxAngularVelocity>6</MaxAngularVelocity>
-    <MaxBoost>1</MaxBoost>
+    <MaxBoost>0.65</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
@@ -87,8 +87,8 @@
     <BlockGroups>UP Weapons</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
+    <BlockGroups>UP Rotors/Hinges</BlockGroups>
+    <BlockGroups>UP Pistons</BlockGroups>
     <BlockGroups>H/UP Production</BlockGroups>
     <MaxCount>40</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
@@ -125,10 +125,18 @@
     <PunishmentType>Damage</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>H Mechanical</Name>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <Name>H Pistons</Name>
+    <BlockGroups>H Pistons</BlockGroups>
+    <MaxCount>10</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>H Rotors/Hinges</Name>
+    <BlockGroups>H Rotors/Hinges</BlockGroups>
+    <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -204,7 +212,7 @@
   <BlockLimits>
     <Name>Restricted</Name>
     <BlockGroups>H Drill Blocker</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>H Welders</BlockGroups>
     <BlockGroups>H Fortress Weapons</BlockGroups>
     <BlockGroups>H Shield Generator</BlockGroups>
     <BlockGroups>H Fortress Utility</BlockGroups>

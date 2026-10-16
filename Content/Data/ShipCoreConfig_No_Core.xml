@@ -110,10 +110,10 @@
     <BlockGroups>H Interior Turrets</BlockGroups>
     <BlockGroups>H Shield Generator</BlockGroups>
     <BlockGroups>H Drill Blocker</BlockGroups>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
+    <BlockGroups>H Rotors/Hinges</BlockGroups>
+    <BlockGroups>H Pistons</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>H Welders</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
     <BlockGroups>H H2 Engines</BlockGroups>
     <BlockGroups>H Gas Generators</BlockGroups>

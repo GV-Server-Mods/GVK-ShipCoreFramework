@@ -37,7 +37,7 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.9</MaxSpeed>
+    <MaxSpeed>0.6</MaxSpeed>
     <MaxAngularVelocity>6</MaxAngularVelocity>
     <MaxBoost>0.5</MaxBoost>
     <BoostDuration>10</BoostDuration>

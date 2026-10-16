@@ -75,7 +75,7 @@
   <BlockLimits>
     <Name>UP Utility Points</Name>
     <BlockGroups>H/UP Drills</BlockGroups>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
+    <BlockGroups>UP Rotors/Hinges</BlockGroups>
     <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -122,8 +122,8 @@
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
-    <Name>H Mechanical</Name>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
+    <Name>H Rotors/Hinges</Name>
+    <BlockGroups>H Rotors/Hinges</BlockGroups>
     <MaxCount>5</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -160,12 +160,12 @@
     <BlockGroups>H Relic Weapons</BlockGroups>
     <BlockGroups>H Warheads</BlockGroups>
     <BlockGroups>H/UP Production</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>H Welders</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>H Drill Blocker</BlockGroups>
     <BlockGroups>MP Thrusters</BlockGroups>
     <BlockGroups>MP Suspension</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
+    <BlockGroups>H Pistons</BlockGroups>
     <BlockGroups>H Salvage Turrets</BlockGroups>
     <BlockGroups>H NPC Blocks</BlockGroups>
     <MaxCount>0</MaxCount>

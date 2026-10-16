@@ -123,14 +123,14 @@
     <BlockGroups>H Fortress Weapons</BlockGroups>
     <BlockGroups>H Interior Turrets</BlockGroups>
     <BlockGroups>H Weapons</BlockGroups>
-    <BlockGroups>H/UP Pistons</BlockGroups>
-    <BlockGroups>H/UP Rotors/Hinges</BlockGroups>
+    <BlockGroups>H Pistons</BlockGroups>
+    <BlockGroups>H Rotors/Hinges</BlockGroups>
     <BlockGroups>H Fortress Utility</BlockGroups>
     <BlockGroups>H/UP Production</BlockGroups>
     <BlockGroups>H Gas Generators</BlockGroups>
     <BlockGroups>H H2 Engines</BlockGroups>
     <BlockGroups>H/UP Drills</BlockGroups>
-    <BlockGroups>H/UP Welders</BlockGroups>
+    <BlockGroups>H Welders</BlockGroups>
     <BlockGroups>H Salvage Turrets</BlockGroups>
     <BlockGroups>H NPC Blocks</BlockGroups>
     <MaxCount>0</MaxCount>
