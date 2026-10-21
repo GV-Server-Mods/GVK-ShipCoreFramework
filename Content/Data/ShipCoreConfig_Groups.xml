@@ -1533,6 +1533,26 @@
       <SubtypeId>any</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipGrinderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipGrinder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipGrinderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>H Welders</Name>
@@ -1541,12 +1561,52 @@
       <SubtypeId>any</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipWelderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipWelder</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipWelderReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>UP Welders</Name>
     <BlockTypes>
       <TypeId>ShipWelder</TypeId>
       <SubtypeId>any</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipWelder</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeShipWelderReskin</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipWelder</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallShipWelderReskin</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -1560,6 +1620,31 @@
     <BlockTypes>
       <TypeId>Drill</TypeId>
       <SubtypeId>LargeBlockPrototechDrill</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargeBlockDrillReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_SmallBlockDrillReskin</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>GVK_LargePrototechDrill</SubtypeId>
       <CountWeight>3</CountWeight>
     </BlockTypes>
   </BlockGroup>
