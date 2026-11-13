@@ -26,7 +26,7 @@ Speed and boost are fractions of the framework's maximum speed. MPs (Mobility Po
 | Medium Grid | `LargeBlockBeacon_MediumCore` | 2,000 | Both | 140 | 60 | 0.4 | 0.45 | 4 | none |
 | Small Core | `SmallBlockBeacon` | 2,000 | Both | 140 | 40 | 0.6 | 0.65 | none | none |
 | Small Scrap Core | `SmallBlockBeacon_Scrap` | 2,000 | Both | none | none | 0.3 | 0.5 | none | none |
-| Support Grid | `LargeBlockBeacon_SupportCore` | 2,000 | Both | 140 | 40 | 0.4 | 0.45 | 4 | 4 |
+| Support Grid | `LargeBlockBeacon_SupportCore` | 2,000 | Both | 140 | 50 | 0.4 | 0.45 | 4 | 4 |
 | Light Core | `LargeBlockBeacon` | 750 | Both | 80 | 40 | 0.45 | 0.5 | 2 | none |
 | Kharak No Core | `KHARAK-NO-CORE-ALL-GRID-TYPES` | 100 | Both | 10 | none | 1 | 0 | none | none |
 | Pipeline Core | `LargeBlockBeacon_Pipeline` | 50 | Static | none | 10 | 0 | 0 | 1 | none |

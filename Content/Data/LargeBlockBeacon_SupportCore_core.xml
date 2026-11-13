@@ -92,7 +92,7 @@
     <BlockGroups>UP Welders</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>H Salvage Turrets</BlockGroups>
-    <MaxCount>40</MaxCount>
+    <MaxCount>50</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -148,15 +148,6 @@
     <Name>H Rotors/Hinges</Name>
     <BlockGroups>H Rotors/Hinges</BlockGroups>
     <MaxCount>10</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>H Relic Weapons</Name>
-    <BlockGroups>H Relic Weapons</BlockGroups>
-    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -253,6 +244,7 @@
     <Name>Restricted</Name>
     <BlockGroups>H Fortress Utility</BlockGroups>
     <BlockGroups>H Fortress Weapons</BlockGroups>
+    <BlockGroups>H Relic Weapons</BlockGroups>
     <BlockGroups>H Shield Generator</BlockGroups>
     <BlockGroups>H NPC Blocks</BlockGroups>
     <MaxCount>0</MaxCount>
