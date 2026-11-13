@@ -11,7 +11,7 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MaxPerFaction>-1</MaxPerFaction>
+  <MaxPerFaction>2</MaxPerFaction>
   <FactionPlayersNeededPerCore>-1</FactionPlayersNeededPerCore>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
@@ -96,7 +96,7 @@
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Wind/Solar</Name>
@@ -115,7 +115,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Welders</Name>
@@ -124,7 +124,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Grinders</Name>
@@ -133,7 +133,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Pistons</Name>
@@ -142,7 +142,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Rotors/Hinges</Name>
@@ -151,7 +151,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Relic Weapons</Name>
@@ -160,7 +160,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Gas Generators</Name>
@@ -169,7 +169,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -179,7 +179,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -199,7 +199,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -209,7 +209,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Drill Blocker</Name>
@@ -218,7 +218,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -228,7 +228,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Terminal Blocks</Name>
@@ -247,7 +247,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Fortress Blocks</Name>
@@ -256,7 +256,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>H Weapons</Name>
@@ -275,7 +275,25 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>Hidden</LimitVisibility>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>H Fortress H2 Engine</Name>
+    <BlockGroups>H Fortress H2 Engine</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>H Fortress Gas Generator</Name>
+    <BlockGroups>H Fortress Gas Generator</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>

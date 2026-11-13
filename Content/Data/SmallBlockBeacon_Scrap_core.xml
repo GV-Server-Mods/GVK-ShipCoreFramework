@@ -103,14 +103,22 @@
     <BlockGroups>H Shield Generator</BlockGroups>
     <BlockGroups>H Welders</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
-    <BlockGroups>H Warheads</BlockGroups>
     <BlockGroups>H Salvage Turrets</BlockGroups>
     <BlockGroups>H NPC Blocks</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>Hidden</LimitVisibility>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Restricted Warheads</Name>
+    <BlockGroups>H Warheads</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
   </BlockLimits>
 </ShipCore>

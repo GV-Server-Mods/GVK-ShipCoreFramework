@@ -85,7 +85,6 @@
   <BlockLimits>
     <Name>Restricted</Name>
     <BlockGroups>H Relic Weapons</BlockGroups>
-    <BlockGroups>H Warheads</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>UP Weapons</BlockGroups>
     <BlockGroups>H Shield Generator</BlockGroups>
@@ -110,7 +109,16 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>Hidden</LimitVisibility>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Restricted Warheads</Name>
+    <BlockGroups>H Warheads</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
   </BlockLimits>
 </ShipCore>

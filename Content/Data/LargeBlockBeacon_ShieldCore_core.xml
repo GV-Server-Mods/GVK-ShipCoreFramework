@@ -11,7 +11,7 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>0</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MaxPerFaction>-1</MaxPerFaction>
+  <MaxPerFaction>2</MaxPerFaction>
   <FactionPlayersNeededPerCore>-1</FactionPlayersNeededPerCore>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
@@ -80,7 +80,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>true</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -90,7 +90,7 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>NearLimit</LimitVisibility>
   </BlockLimits>
   <BlockLimits>
@@ -110,12 +110,11 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>true</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>Restricted</Name>
     <BlockGroups>H Relic Weapons</BlockGroups>
-    <BlockGroups>H Warheads</BlockGroups>
     <BlockGroups>H/UP Grinders</BlockGroups>
     <BlockGroups>UP Weapons</BlockGroups>
     <BlockGroups>MP Suspension</BlockGroups>
@@ -137,7 +136,16 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>Damage</PunishmentType>
+    <PunishmentType>ShutOff</PunishmentType>
     <LimitVisibility>Hidden</LimitVisibility>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Restricted Warheads</Name>
+    <BlockGroups>H Warheads</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>Damage</PunishmentType>
   </BlockLimits>
 </ShipCore>

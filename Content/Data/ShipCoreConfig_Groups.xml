@@ -18,18 +18,8 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>SmallRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>SmallRailgun</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncherReload</TypeId>
-      <SubtypeId>LargeRailgun</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -253,6 +243,11 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncherReload</TypeId>
       <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>Missiles_Rockets_SGReloadableLauncher</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -531,6 +526,16 @@
       <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
       <CountWeight>3</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>SmallBlockSmallAtmosphericThrust</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>H Weapons</Name>
@@ -717,6 +722,11 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncherReload</TypeId>
       <SubtypeId>SmallRocketLauncherReload</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>Missiles_Rockets_SGReloadableLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -1387,22 +1397,22 @@
   <BlockGroup>
     <Name>H Warheads</Name>
     <BlockTypes>
-      <TypeId>Warhead</TypeId>
+      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>SmallWarhead</SubtypeId>
       <CountWeight>0.5</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Warhead</TypeId>
+      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LargeWarhead</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Warhead</TypeId>
+      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>SmallExplosiveBarrel</SubtypeId>
       <CountWeight>0.5</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>Warhead</TypeId>
+      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LargeExplosiveBarrel</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
@@ -1614,13 +1624,13 @@
     <Name>H/UP Drills</Name>
     <BlockTypes>
       <TypeId>Drill</TypeId>
-      <SubtypeId>any</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <SubtypeId>LargeBlockPrototechDrill</SubtypeId>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Drill</TypeId>
-      <SubtypeId>LargeBlockPrototechDrill</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <SubtypeId>any</SubtypeId>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1697,6 +1707,22 @@
     <BlockTypes>
       <TypeId>Assembler</TypeId>
       <SubtypeId>LargePrototechAssembler</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>H Fortress H2 Engine</Name>
+    <BlockTypes>
+      <TypeId>HydrogenEngine</TypeId>
+      <SubtypeId>LargePrototechReactor</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>H Fortress Gas Generator</Name>
+    <BlockTypes>
+      <TypeId>OxygenGenerator</TypeId>
+      <SubtypeId>LargeBlockPrototechOxygenGenerator</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
