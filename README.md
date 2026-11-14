@@ -45,12 +45,12 @@ Speed and boost are fractions of the framework's maximum speed. MPs (Mobility Po
 | One core's block cap, speed, MP and UP budget and per-type caps | `Content/Data/<beacon subtype>_core.xml` (the table above lists them) |
 | Which blocks count toward which limit group | `Content/Data/ShipCoreConfig_Groups.xml` |
 | The profile for grids with no core | `Content/Data/ShipCoreConfig_No_Core.xml` |
-| World options (which no-core profile is used, combat logging, whether AI factions are ignored) | `Content/Data/ShipCoreConfig_World.xml` |
+| World options (which no-core profile is used, combat logging, whether AI factions are ignored) | Not in this repo: the world seed is `seeds/ShipCoreConfig_World.xml` in gvk-server-config (GVK-Settings#782) |
 
 After a change, lint the content with `sc_lint.py` from the `se-dev-shipcore` skill:
 
 ```powershell
-python <path-to-skill>/scripts/sc_lint.py Content --world Content/Data/ShipCoreConfig_World.xml
+python <path-to-skill>/scripts/sc_lint.py Content --world <gvk-server-config>/seeds/ShipCoreConfig_World.xml
 ```
 
 Beacon counts per player or faction are not set here; the beacon limiter mod does that.
