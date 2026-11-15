@@ -15,7 +15,7 @@
   <FactionPlayersNeededPerCore>-1</FactionPlayersNeededPerCore>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
-  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
   <SpeedOverridePriority>0</SpeedOverridePriority>

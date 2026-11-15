@@ -20,23 +20,23 @@ Speed and boost are fractions of the framework's maximum speed. MPs (Mobility Po
 
 | Core | Beacon subtype | Max blocks | Mobility | MPs | UPs | Speed | Boost | Interior turrets | Salvage turrets |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Large Scrap Core | `LargeBlockBeacon_Scrap` | 8,000 | Both | none | none | 0.3 | 0.5 | none | none |
-| Fortress Core | `LargeBlockBeacon_Fortress` | 6,000 | Static | 200 | 120 | 0 | 0 | 8 | 4 |
-| Heavy Grid | `LargeBlockBeacon_HeavyCore` | 4,000 | Both | 200 | 80 | 0.35 | 0.4 | 6 | none |
-| Medium Grid | `LargeBlockBeacon_MediumCore` | 2,000 | Both | 140 | 60 | 0.4 | 0.45 | 4 | none |
-| Small Core | `SmallBlockBeacon` | 2,000 | Both | 140 | 40 | 0.6 | 0.65 | none | none |
-| Small Scrap Core | `SmallBlockBeacon_Scrap` | 2,000 | Both | none | none | 0.3 | 0.5 | none | none |
-| Support Grid | `LargeBlockBeacon_SupportCore` | 2,000 | Both | 140 | 50 | 0.4 | 0.45 | 4 | 4 |
-| Light Core | `LargeBlockBeacon` | 750 | Both | 80 | 40 | 0.45 | 0.5 | 2 | none |
-| Kharak No Core | `KHARAK-NO-CORE-ALL-GRID-TYPES` | 100 | Both | 10 | none | 1 | 0 | none | none |
-| Pipeline Core | `LargeBlockBeacon_Pipeline` | 50 | Static | none | 10 | 0 | 0 | 1 | none |
-| Shield Core | `LargeBlockBeacon_ShieldCore` | 50 | Static | none | none | 0 | 0 | none | none |
-| Large Disposable NPC Core | `DisposableNpcBeaconLarge` | no limit | Both | none | none | 0.4 | 0.5 | none | none |
-| Large Standard NPC Core | `LargeBlockBeacon_NPC` | no limit | Both | none | none | 0.4 | 0.5 | none | none |
-| Large Unconcealed NPC Core | `LargeBlockBeacon_NPCNoConceal` | no limit | Both | none | none | 0.4 | 0.5 | none | none |
-| Small Disposable NPC Core | `DisposableNpcBeaconSmall` | no limit | Both | none | none | 0.6 | 0.5 | none | none |
-| Small Standard NPC Core | `SmallBlockBeacon_NPC` | no limit | Both | none | none | 0.6 | 0.5 | none | none |
-| Small Unconcealed NPC Core | `SmallBlockBeacon_NPCNoConceal` | no limit | Both | none | none | 0.6 | 0.5 | none | none |
+| Large Scrap Core | `LargeBlockBeacon_Scrap` | 8,000 | Both | none | none | 0.3 | off | none | none |
+| Fortress Core | `LargeBlockBeacon_Fortress` | 6,000 | Static | 200 | 120 | 0 | off | 8 | 4 |
+| Heavy Grid | `LargeBlockBeacon_HeavyCore` | 4,000 | Both | 200 | 80 | 0.35 | off | 6 | none |
+| Medium Grid | `LargeBlockBeacon_MediumCore` | 2,000 | Both | 140 | 60 | 0.4 | off | 4 | none |
+| Small Core | `SmallBlockBeacon` | 2,000 | Both | 140 | 40 | 0.6 | off | none | none |
+| Small Scrap Core | `SmallBlockBeacon_Scrap` | 2,000 | Both | none | none | 0.3 | off | none | none |
+| Support Grid | `LargeBlockBeacon_SupportCore` | 2,000 | Both | 140 | 50 | 0.4 | off | 4 | 4 |
+| Light Core | `LargeBlockBeacon` | 750 | Both | 80 | 40 | 0.45 | off | 2 | none |
+| Kharak No Core | `KHARAK-NO-CORE-ALL-GRID-TYPES` | 100 | Both | 10 | none | 1 | off | none | none |
+| Pipeline Core | `LargeBlockBeacon_Pipeline` | 50 | Static | none | 10 | 0 | off | 1 | none |
+| Shield Core | `LargeBlockBeacon_ShieldCore` | 50 | Static | none | none | 0 | off | none | none |
+| Large Disposable NPC Core | `DisposableNpcBeaconLarge` | no limit | Both | none | none | 0.4 | off | none | none |
+| Large Standard NPC Core | `LargeBlockBeacon_NPC` | no limit | Both | none | none | 0.4 | off | none | none |
+| Large Unconcealed NPC Core | `LargeBlockBeacon_NPCNoConceal` | no limit | Both | none | none | 0.4 | off | none | none |
+| Small Disposable NPC Core | `DisposableNpcBeaconSmall` | no limit | Both | none | none | 0.6 | off | none | none |
+| Small Standard NPC Core | `SmallBlockBeacon_NPC` | no limit | Both | none | none | 0.6 | off | none | none |
+| Small Unconcealed NPC Core | `SmallBlockBeacon_NPCNoConceal` | no limit | Both | none | none | 0.6 | off | none | none |
 <!-- /GENERATED:grid-classes -->
 
 ## Operator cheat sheet

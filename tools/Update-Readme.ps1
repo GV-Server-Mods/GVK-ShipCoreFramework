@@ -32,7 +32,7 @@ $rows = foreach ($f in Get-ChildItem (Join-Path $root 'Content\Data') -Filter *_
         Name = [string]$core.UniqueName; Subtype = [string]$core.SubtypeId; Npc = $npc
         Blocks = [string]$core.MaxBlocks; Mobility = [string]$core.MobilityType
         MP = $limits['MP Mobility Points']; UP = $limits['UP Utility Points']
-        Speed = [string]$core.SpeedModifiers.MaxSpeed; Boost = [string]$core.SpeedModifiers.MaxBoost
+        Speed = [string]$core.SpeedModifiers.MaxSpeed; Boost = $(if ($core.SpeedBoostEnabled -eq 'true') { [string]$core.SpeedModifiers.MaxBoost } else { 'off' })
         Interior = $limits['H Interior Turrets']; Salvage = $limits['H Salvage Turrets']
     }
 }
