@@ -33,8 +33,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>Missile_Torpedo_Small</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallBlockTorpedoLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -126,8 +136,18 @@
       <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>AutoCannonTurretType2</SubtypeId>
+      <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallGatlingGun</TypeId>
       <SubtypeId>SmallBlockAutocannon</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallBlockAutocannonType2</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -137,12 +157,27 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMediumCalibreTurretType2</SubtypeId>
+      <CountWeight>6</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>SmallBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreTurretType2</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncherReload</TypeId>
       <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreGunType2</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -156,8 +191,18 @@
       <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeCalibreTurretType2</SubtypeId>
+      <CountWeight>8</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
+      <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockLargeCalibreGunType2</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -261,8 +306,18 @@
       <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
+      <CountWeight>10</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>Missile_Torpedo_Small</SubtypeId>
+      <CountWeight>8</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallBlockTorpedoLauncher</SubtypeId>
       <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -322,7 +377,17 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeInsetFlareLauncher</SubtypeId>
+      <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>SmallFlareLauncher</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallInsetFlareLauncher</SubtypeId>
       <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -428,12 +493,22 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
+      <SubtypeId>SmallBlockLargeFlatAtmosphericThrustRound</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallFlatAtmosphericThrust</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>SmallBlockSmallFlatAtmosphericThrustRound</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -605,8 +680,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>AutoCannonTurretType2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallGatlingGun</TypeId>
       <SubtypeId>SmallBlockAutocannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallBlockAutocannonType2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -616,12 +701,27 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMediumCalibreTurretType2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>SmallBlockMediumCalibreTurret</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreTurretType2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncherReload</TypeId>
       <SubtypeId>SmallBlockMediumCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreGunType2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -635,8 +735,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeCalibreTurretType2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockLargeCalibreGun</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockLargeCalibreGunType2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -740,8 +850,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>Missile_Torpedo_Small</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallBlockTorpedoLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -801,7 +921,17 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeInsetFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>SmallFlareLauncher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallInsetFlareLauncher</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -893,8 +1023,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeGatlingTurret</TypeId>
+      <SubtypeId>AutoCannonTurretType2_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallGatlingGun</TypeId>
       <SubtypeId>SmallBlockAutocannon_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallGatlingGun</TypeId>
+      <SubtypeId>SmallBlockAutocannonType2_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -904,12 +1044,27 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeBlockMediumCalibreTurretType2_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>SmallBlockMediumCalibreTurret_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreTurretType2_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncherReload</TypeId>
       <SubtypeId>SmallBlockMediumCalibreGun_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncherReload</TypeId>
+      <SubtypeId>SmallBlockMediumCalibreGunType2_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -923,8 +1078,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>LargeMissileTurret</TypeId>
+      <SubtypeId>LargeCalibreTurretType2_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockLargeCalibreGun_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockLargeCalibreGunType2_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -1023,8 +1188,18 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeBlockTorpedoLauncher_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>Missile_Torpedo_Small_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallBlockTorpedoLauncher_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -1084,7 +1259,17 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>LargeInsetFlareLauncher_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>SmallFlareLauncher_NPC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>SmallInsetFlareLauncher_NPC</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
