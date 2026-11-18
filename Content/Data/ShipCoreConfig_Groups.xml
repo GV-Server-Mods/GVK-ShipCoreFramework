@@ -28,18 +28,8 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Large</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Small</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -301,19 +291,9 @@
       <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Large</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
       <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Small</SubtypeId>
-      <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -845,18 +825,8 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Large</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>LargeBlockTorpedoLauncher</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Missile_Torpedo_Small</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
